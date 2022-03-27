@@ -1,0 +1,276 @@
+@import url("@import url(https://fonts.googleapis.com/css?family=Open+Sans);");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "opensans", arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 3%;
+}
+
+p {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.header1 {
+  width: 100%;
+  height: 100px;
+  background-color: #ff5733;
+  display: flex;
+}
+
+.menu {
+  width: 70%;
+  margin-left: 20%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 5%;
+  margin-top: 2%;
+}
+
+li {
+  padding: 2%;
+}
+
+.Informação {
+  background-image: url(../img/ciudadmaracaibo.jpg);
+  background-size: cover;
+  color: black;
+  height: 300px;
+}
+
+-------- body {
+  background: #f6f9ff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #979797;
+  font-size: 16px;
+}
+
+main.cards {
+  display: flex;
+  padding: 32px;
+  justify-content: space-around;
+}
+
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 468px;
+  margin-left: 32px;
+  align-content: center;
+}
+
+main.cards section.card:first-child {
+  margin-left: 0;
+}
+
+main.cards section.card .icon {
+  width: 64px;
+  height: 64px;
+}
+
+main.cards section.card img {
+  width: 100%;
+}
+
+main.cards section.card h3 {
+  font-size: 100%;
+  margin: 16px 0;
+}
+
+main.cards section.card span {
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 80%;
+  margin-bottom: 16px;
+}
+
+main.cards section.card button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: 500;
+  color: #ff5733;
+  margin-bottom: 16px 0;
+}
+
+main.cards section.card.comida {
+  box-shadow: 20px 20px 50px -30px #ff5733;
+}
+
+main.cards section.card.conhecer {
+  box-shadow: 20px 20px 50px -30px #ff5733;
+}
+
+main.cards section.card.calor {
+  box-shadow: 20px 20px 50px -30px #ff5733;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 3%;
+}
+
+.vídeoyoutube {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+iframe {
+  border-radius: 5px;
+  color: #ff9933;
+}
+
+iframe:hover {
+  transform: scale(1.1);
+  transition: 00.5s;
+}
+
+footer {
+  background-color: #ff9933;
+  padding: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+@media (max-width: 500px) {
+  .Informação {
+    width: 100%;
+    background-position: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200%;
+    display: flex;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  li {
+    padding: 3%;
+    width: 75%;
+  }
+
+  .Informação {
+    background-size: cover;
+    background-repeat: round;
+  }
+
+  h1 {
+    font-size: 2rem;
+    padding: 5%;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .ContainerCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    gap: 25px;
+  }
+
+  .Card {
+    width: 90%;
+  }
+
+  iframe {
+    width: 90%;
+    padding: 5%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header1 {
+    width: 100%;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: round;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  li {
+    padding: 3%;
+    width: 75%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    padding: 5%;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  main.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    gap: 25px;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  iframe {
+    width: 90%;
+    padding: 5%;
+  }
+}
